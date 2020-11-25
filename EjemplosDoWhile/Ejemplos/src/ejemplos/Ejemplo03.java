@@ -25,10 +25,10 @@ public class Ejemplo03 {
             nota = entrada.nextDouble();
             cadenaFinal = String.format("%s%.2f\n", cadenaFinal, nota);
                        
-            System.out.println("Ingrese (-111) si desea salir del ciclo ");
+            System.out.println("Ingrese (<0) si desea salir del ciclo ");
             salida = entrada.nextInt();
             
-            if (salida==-111) {
+            if (salida<0) {
                 bandera = false;
             }
             
